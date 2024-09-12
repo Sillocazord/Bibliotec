@@ -131,7 +131,7 @@ header nav a {
     margin-top: 40px;
 }
 
-.Bolaimg{
+.Circulo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +143,7 @@ header nav a {
     background-color: white;
 }
 /*----------------------------------------------------Section 2 = Top Livros----------------------------------------------------*/
-.topL-flex{
+.Books-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,7 +154,7 @@ header nav a {
     margin: 0 auto;
 
 }
-.Books{
+.Livros{
 
     height: 350px;
     width: 200px;
