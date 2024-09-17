@@ -70,7 +70,8 @@ header nav a {
 
 #Banner {
 
-    background-color: #4969df;
+   /* background-color: #4969df;*/
+   background-color: #3691D8;
     height: 100%;
     width: 100%;
 }
@@ -110,12 +111,17 @@ header nav a {
 
 
 
-article h2 {
+#Banner h2 {
     font-size: 25px;
     font-family: "Montserrat", sans-serif;
+    color: white;
 
 }
 
+#Banner p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
 /*---------------------------------------Section 1 = Bem-Vindo--------------------------------------------*/
 
 /*-------------------------------------Section 2 = BibliotecFlex------------------------------------------*/
