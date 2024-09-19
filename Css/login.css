@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #3691D8;
-}
 
 header {
     background-color: #26333d;
@@ -56,5 +53,86 @@ header nav a {
 /*----------------------------------------------HEADER------------------------------------------------*/
 
 .Form-flex {
+    display: flex;
+}
 
+main {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background-color: #3691D8;
+}
+
+.main-flex {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.e-mail {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Senha {
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+input {
+    width: 350px;
+    height: 25px;
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+
+}
+
+.Inserir {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: gray;
+}
+
+.from {
+
+    width: 900px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.332);
+}
+
+a {
+    color: rgb(97, 97, 97);
+}
+
+button {
+    width: 350px;
+    height: 25px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: white;
+    border: none;
+    text-align: center;
+    background-color: black;
+}
+
+.from h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
