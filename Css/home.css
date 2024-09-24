@@ -533,6 +533,22 @@ a {
         flex-direction: column;
         justify-content: space-between;
     }
+
+    .nossa {
+       
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+
+    .nossa h2{
+        margin-bottom: 30px;
+
+    }
+
+    .nossa p {
+
+       margin-bottom: 30px;
+    }
 }
 
 
