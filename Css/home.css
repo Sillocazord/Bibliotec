@@ -333,7 +333,7 @@ article h1 {
     font-family: "Montserrat", sans-serif;
 }
 
-/**----------------------------------------------------Section 4 = Top Livros----------------------------------------------------*/
+/*----------------------------------------------------Section 4 = Top Livros----------------------------------------------------*/
 
 footer {
     background-color: #26333d;
@@ -429,9 +429,111 @@ a {
     margin-bottom: 40px;
 }
 
+/*----------------------------------------------------Section 4 = Top Livros----------------------------------------------------*/
+/*--------------------------------------------------------Responsividade--------------------------------------------------------*/
+@media screen and (max-width: 992px) {
 
+    .bibliotec-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Books-flex {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-flex {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .Layout-grid {
+        height: 70%;
+        width: 100%;
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .Dividir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        font-size: 15px;
+    }
+
+    h2 {
+
+        font-size: 10px;
+    }
+
+    .totalmente {
+
+        display: none;
+    }
+
+    .Mulher-do-banner {
+        display: none;
+    }
+
+    .Bem-vindo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        font-size: 15px;
+    }
+
+    .header-flex nav {
+        display: none;
+    }
+
+    .conteudo {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tres-caixa {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nicksnav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
 
 
 
