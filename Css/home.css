@@ -429,6 +429,10 @@ a {
     margin-bottom: 40px;
 }
 
+.hambu/*faz o menu hamburguer sumir*/ {
+    display: none;
+}
+
 /*----------------------------------------------------Section 4 = Top Livros----------------------------------------------------*/
 /*--------------------------------------------------------Responsividade--------------------------------------------------------*/
 @media screen and (max-width: 992px) {
@@ -548,6 +552,26 @@ a {
     .nossa p {
 
        margin-bottom: 30px;
+    }
+
+    .Bem-vindo p {
+        font-size: small;
+    }
+
+    .menyu/*menyu🐰 hamburguer*/ {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+
+        width: 80%;
+        height: 100%;
+        background-color: aqua;
+    }
+
+    .mostrar-menyu
+    .hambu/*faz o menu hamburguer aparecer*/ {
+        display: block;
     }
 }
 
